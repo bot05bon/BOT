@@ -88,6 +88,11 @@ export async function executeHoneyStrategy(
   if (!user || !user.secret) throw new Error('Wallet not found');
   const settings = getHoneySettings(userId, users);
   for (const token of settings.tokens) {
+    // Ignore tokens with missing essential data
+    if (!token.address || !token.buyAmount || !Array.isArray(token.profitPercents) || !Array.isArray(token.soldPercents) || token.profitPercents.length === 0 || token.soldPercents.length === 0) {
+      token.status = 'error';
+      continue;
+    }
     if (token.finished) {
       token.status = 'sold';
       continue;
