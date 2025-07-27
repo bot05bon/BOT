@@ -1,0 +1,29 @@
+[
+  {
+    "address": "So11111111111111111111111111111111111111112",
+    "symbol": "SOL",
+    "price": 178.23,
+    "volume24h": 120000000,
+    "marketCap": 8000000000,
+    "holders": 1200000,
+    "ageMinutes": 800000
+  },
+  {
+    "address": "Es9vMFrzaCERa8w2r9cC7QKX1j1b1t1Q1t1Q1t1Q1t1Q",
+    "symbol": "USDT",
+    "price": 1.00,
+    "volume24h": 90000000,
+    "marketCap": 5000000000,
+    "holders": 900000,
+    "ageMinutes": 900000
+  },
+  {
+    "address": "7vfCXTqQ3vQ8Q1Q1Q1Q1Q1Q1Q1Q1Q1Q1Q1Q1Q1Q1Q1Q1Q",
+    "symbol": "ETH",
+    "price": 3200.50,
+    "volume24h": 40000000,
+    "marketCap": 400000000,
+    "holders": 400000,
+    "ageMinutes": 700000
+  }
+]
